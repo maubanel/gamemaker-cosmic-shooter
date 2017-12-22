@@ -1,18 +1,18 @@
 {
-    "id": "767704c6-c2c3-4345-9cf0-4276d9b8e205",
+    "id": "80156fc4-3f15-4646-b937-08b94b739d40",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oShip",
     "eventList": [
         {
-            "id": "ee3daaf1-bd5c-4569-abb1-f6253eb846d3",
+            "id": "9094ea32-58cf-493f-a553-82d75a742dd2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "767704c6-c2c3-4345-9cf0-4276d9b8e205"
+            "m_owner": "80156fc4-3f15-4646-b937-08b94b739d40"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,8 +31,51 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "b4c1b5c2-713e-4ec0-a5fe-f0582e8fe4a0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "shipRotSpd",
+            "varType": 0
+        },
+        {
+            "id": "1f56b82e-fe9e-4d7e-938e-191442c01882",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "shipAccel",
+            "varType": 0
+        },
+        {
+            "id": "386bc022-2935-4db5-958c-fbd7eac3d7e6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "7",
+            "varName": "shipMaxSpeed",
+            "varType": 0
+        }
+    ],
     "solid": false,
-    "spriteId": "3ce17422-42c5-4d23-85fe-4d2f7e9fd42d",
+    "spriteId": "c4422ca8-8a49-47e0-bb68-94a2521de017",
     "visible": true
 }
