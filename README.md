@@ -8,4 +8,4 @@ I do a longer version of this demonstration with middle and high school students
 
 This will run both on the Mac & PC.  Clone or download the repository: `git clone https://github.com/maubanel/CosmicShooter`.
 
-Run the game by double clicking on `CosmicShooter.yyp`. Full walk-through is included in instructions.pdf.
+Run the game by double clicking on `CosmicShooter.yyp`. Full walk-through is included in `instructions.pdf`.
